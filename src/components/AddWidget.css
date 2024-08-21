@@ -1,0 +1,60 @@
+/* AddWidget.css */
+
+.add-widget {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-widget:hover {
+    transform: scale(1.05);
+    background-color: #333333;
+  }
+  
+  .add-widget h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .add-widget select,
+  .add-widget input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-widget select:focus,
+  .add-widget input:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .add-widget button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .add-widget button:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "categories": [
+      {
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "name": "Cloud Accounts",
+            "content": "Connected: 2, Not Connected: 2"
+          },
+          {
+            "name": "Cloud Account Risk Assessment",
+            "content": "Failed: 3689, Warning: 68"
+          }
+        ]
+      },
+      {
+        "name": "CWPP Dashboard",
+        "widgets": [
+          {
+            "name": "Top 5 Namespace Specific Alerts",
+            "content": "No Graph Data Available"
+          }
+        ]
+      }
+    ]
+  }
+  
